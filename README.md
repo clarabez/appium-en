@@ -60,7 +60,7 @@ I've started this tutorial because when I decided to learn about Appium I had to
 ___
 
 <p align="center">
-<img src="https://github.com/clarabez/appium/blob/master/images/appiumIntroduction.png">
+<img src="https://github.com/clarabez/appium-en/blob/master/images/appiumIntroduction.png">
 </p>
 
 # Few information about Appium
@@ -304,7 +304,7 @@ If you just arrived here in this section, that means that probably your setup is
 ___
 
 <p align="center">
-<img src="https://github.com/clarabez/appium/blob/master/images/appiumStarting.png">
+<img src="https://github.com/clarabez/appium-en/blob/master/images/appiumStarting.png">
 </p>
 
 # Starting with Appium
