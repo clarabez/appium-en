@@ -16,7 +16,7 @@ This tutorial is a guide to teach you how to setup your environment to use Appiu
 
 ___
 
-**This tutorial is organized on following sections:**
+🗂  **This tutorial is organized on following sections:**
 
 <ul>
     <li>Introduction</li>
@@ -53,7 +53,7 @@ ___
 
 ___
 
-I will try to always (or whenever is possible) adjust the content here and insert new tutorials as well. Fell free to suggest improvements or corrections, just make contact <i>&#128525;</i>
+🚧  I will try to always (or whenever is possible) adjust the content here and insert new tutorials as well. Fell free to suggest improvements or corrections, just make contact <i>&#128525;</i>
 
 I've started this tutorial because when I decided to learn about Appium I had to access different sources of content and practice them a lot, make notes about tips, create tutorials for myself, etc, just to make clear the understanding about the tool. I hope these tutorials be useful for you and I also encourage you to share everything you learn here <i>&#129304;</i>
 
@@ -88,11 +88,11 @@ ___
 
 In this section we are gonna describe all the necessary steps to set up our environment for Windows, Linux or Mac. I personally use MacOS for all my projects, so some examples are more detailed for this SO.
 
-**A very important tip:**
+✨ **A very important tip:**
 
 Here I will give details for every SO, but you also have an option of use a simplified model of setup (it works exactly the same). The main advantage of this is that you may save time with settings and avoid unnecessary headache - trust me :) If you think this is the best setup mode for you, jut go ahead to "Simplified setup for Windows/Linux/Mac" topic. The same procedure is used for any operational system.
 
-# Download everything we will need
+# 📥 Download everything we will need
 
 In this course, we will use some essentials tools to practice our automation activities. So, here are some links to download them (all of them are common for Windows, Mac or Linux):
 
@@ -183,7 +183,7 @@ export JAVA_HOME=/your/path/to/jdk1.8.0_112.jdk/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
-**Tip #1 - Windows/Linux/Mac:**
+✨ **Tip #1 - Windows/Linux/Mac:**
 
 To identify your JAVA_HOME folder location, just use following command in your terminal:
 
@@ -193,7 +193,7 @@ which java
 
 The response for that command should be the location for your JAVA. If nothing is returned, that means that JAVA is not installed in your computer.
 
-**Tip #2 - Linux/Mac:**
+✨ **Tip #2 - Linux/Mac:**
 
 Sometimes the defined values are erased and all the configs are lost. To avoid that, do not forget to save the content for your bashrc (Linux) or your bash_profile (macOS). After save those values, do not forget to "compile" your file to refresh your changes:
 
@@ -237,7 +237,7 @@ npm install -g appium
 
 **WARNING:** Do not install Appium with sudo.
 
-**Tip - What is npm?**
+✨ **Tip - What is npm?**
 
 Npm is the download manager for node.js packages.
 
@@ -255,7 +255,7 @@ A very nice functionality offered by Appium is <em>Appium-doctor</em> package, w
 npm install -g appium-doctor --android
 ```
 
-**Tip:**
+✨ **Tip:**
 We are using **--android** flag to indicate the platform name that we are gonna use Appium tool. For example, if we were use iOS instead of Android, we would use **--ios--** flag.
 
 After install <em>Appium-doctor</em>, just call it by terminal:
@@ -361,7 +361,7 @@ To start a new session with Appium we will need to fill at least 2 fields:
 }
 ```
 
-**Warning:** to understand how to get the value of your device's name, you need to check one of our next sections about [ADB commands](https://github.com/clarabez/appium/blob/master/README.md#comandos-adb).
+🚦 **Warning:** to understand how to get the value of your device's name, you need to check one of our next sections about [ADB commands](https://github.com/clarabez/appium/blob/master/README.md#comandos-adb).
 
 Desired capabilities names are very clear about their purpose. <i>'platformName'</i> indicates the name of the platform that you are gonna use: Android, Windows or iOS.
 The name of our device is indicated on <i>'deviceName'</i> key, and we can obtain this value by using <i>'adb devices'</i> command that we already explained previously. So, here is an example of how to fill those basic fields and the related JSON converted content:
@@ -491,7 +491,7 @@ With that, application must be installed properly and be displayed in your app t
 **Note:**<br>
 Usually, popular applications from Play Store are updated at every period of time and, in those updates, maybe some application stop working on your device. For example, already happened to me of using an application which stopped working after some change, because architecture value of the application also has changed, so it become incompatible with my emulated device. If something like this happens to you, I suggest you to pick up another application to keep with your studies. 
 
-**Proposed activities:**<br>
+📝  **Proposed activities:**<br>
 Try to download any application from Play Store and try to install it on your emulated device by using ADB command and also holding and dragging it. 
 
 **Links used in this tutorial:**<br>
@@ -614,7 +614,7 @@ Now, with all values identified and filled, you may save again this config click
 <img src="https://github.com/clarabez/appium/blob/master/images/appiumdetailed.png">
 </p>
 
-**Proposed activities:**<br>
+📝  **Proposed activities:**<br>
 Try to use ADB command presented in this tutorial to identify activity and package values for different applications, including that one you downloaded on Tutorial #1.
 
 **Important links for this tutorial:**<br>
@@ -674,7 +674,7 @@ To identify elements, just perform a double click (or right cursor click) on pag
 
 In my screenshot I am using element "9" as example and so I have 2 options to deal with this element mapping: id and xpath. As element number "9" has unique ID and I can see it is a unique value (I could see it by clicking in every element and checking their values), so, I decided that using ID as value is the best option for this case.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 <br>
 Let's keep practicing, so I suggest you to check the difference between the elements of your application. Also, try to map elements of any other application and check the presence of different types like ID or Xpath.
 ___
@@ -724,7 +724,7 @@ Let's exemplify this functionality. For that I will open an application from my 
 
 "Tap by coordinates" function is simpler than "Swipe" one, once it is performed by an unique click. At the same way, X and Y position values are updated as soon as we move cursor at screen. I clicked at the Dialer app location; that is enough to Appium collects the value position and then perform the click.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 
 Try to use <i>swipe</i> and <i>tap</i> functionalities in others screens, menus or applications.
 
@@ -855,7 +855,7 @@ Appium makes our automation job so much easier when we can generate an initial c
 
 On our next tutorials, we will be more focused on the code, so we will also bring more details about Appium with Python.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 Now that you already know to record your actions and turn it into code, we may perform additional flows to our Calculator (or even any other application) to generate actions with gestures, for example. After that, just export the code and make some adjustments according to your pattern.
 ___
 # Tutorial #7: Arithmetic operations with Android native Calculator
@@ -927,7 +927,7 @@ driver.quit()
 
 Ok, now Appium has generated a lot of useful code for us, giving us an idea of how our automation project for Calculator must go on. We already have some buttons and operators mapped.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 <br><br>
 Keep mapping the remaining elements of the Calculator. Try to map all of them.
 
@@ -1024,7 +1024,7 @@ As output, check your test device (real or emulated) that, on screen, test appli
 
 After all, with just few lines of python code an Appium session could be started in a test device. Output is our Calculator application screen displayed on test device.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 <br><br>
 Try to explore some native resources from webdriver library. If you do not know it, I strongly recommend that you research about this library and try to explore more interesting functionalities for your project.
 ___
@@ -1136,7 +1136,7 @@ Then, print on screen the results for both Appium and Python results and then us
 
 Use <i>assertions</i> in your automation projects is super important. Without using <i>assertions</i> it is not possible to compare the obtained and the expected results, in other words, it is not possible to validate if the collected results is in accordance with the expected of if that is a <i>bug</i>.
 
-**Proposed activities:**<br><br>
+📝  **Proposed activities:**<br><br>
 Now that we've worked directly to the code, I suggest you to complete keep coding what we have done so far, adding the remaining operators like subtraction, division and multiplication. Do not forget to use <i>assertions</i> and, taking the opportunity, I also suggest you to search more about the importance of using assertions for software testing context.
 ___
 # Tutorial #10: Arithmetic operations with Android native Calculator - Phase 3: organizing the code with design patterns and making functional test flow
@@ -1235,7 +1235,7 @@ Well, summarizing what we've done, our project is composed by following folders:
 
 This way, we finish basic tutorials for Appium with Python course, by using Android native Calculator Application.
 
-**Proposed activities:**
+📝  **Proposed activities:**
 
 - As we did not detail a design pattern here and which one would be a good practice here, I propose you to search different design patterns for Python Projects, especially for software automation.
 - Look for others resources from Selenium library.
