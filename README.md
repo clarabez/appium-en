@@ -4,7 +4,6 @@
 
 <i>This is the english version of <a href="https://github.com/clarabez/appium">Appium Course in portuguese</a>, which is recommend by <a href="https://github.com/appium/appium/tree/master/sample-code/python#tutorial">Appium official documentation</a>.</i>
 
->>>>>>> Add pictures in english and fixing some typos
 This tutorial is a guide to teach you how to setup your environment to use Appium tool for functional test automation on mobile devices. Among other things, I highlight following points as main learning:
 
 <ul>
@@ -61,11 +60,7 @@ I've started this tutorial because when I decided to learn about Appium I had to
 ___
 
 <p align="center">
-<<<<<<< HEAD
-<img src="https://github.com/clarabez/appium/blob/master/images/intro.png">
-=======
 <img src="https://github.com/clarabez/appium/blob/master/images/appiumIntroduction.png">
->>>>>>> Add pictures in english and fixing some typos
 </p>
 
 # Few information about Appium
@@ -309,11 +304,7 @@ If you just arrived here in this section, that means that probably your setup is
 ___
 
 <p align="center">
-<<<<<<< HEAD
-<img src="https://github.com/clarabez/appium/blob/master/images/appiumIniciando.png">
-=======
 <img src="https://github.com/clarabez/appium/blob/master/images/appiumStarting.png">
->>>>>>> Add pictures in english and fixing some typos
 </p>
 
 # Starting with Appium
@@ -455,11 +446,7 @@ Well, ADB is a very huge topic and it certainly deserves a specific repository t
 ___
 
 <p align="center">
-<<<<<<< HEAD
-<img src="https://github.com/clarabez/appium/blob/master/images/appiumtutoriais.png">
-=======
 <img src="https://github.com/clarabez/appium/blob/master/images/appiumTutorials.png">
->>>>>>> Add pictures in english and fixing some typos
 </p>
 
 # Tutorial #1: Installing an application on an emulated Android device
@@ -691,11 +678,7 @@ In my screenshot I am using element "9" as example and so I have 2 options to de
 <br>
 Let's keep practicing, so I suggest you to check the difference between the elements of your application. Also, try to map elements of any other application and check the presence of different types like ID or Xpath.
 ___
-<<<<<<< HEAD
-# Tutorial #4: Realizing gestures activities by using Appium
-=======
 # Tutorial #4: Performing gestures activities by using Appium
->>>>>>> Add pictures in english and fixing some typos
 
 **To perform this tutorial, you must have:**
 <ul>
@@ -746,11 +729,7 @@ Let's exemplify this functionality. For that I will open an application from my 
 Try to use <i>swipe</i> and <i>tap</i> functionalities in others screens, menus or applications.
 
 ___
-<<<<<<< HEAD
-# Tutorial #5: Realizing a very simple flow of functional test
-=======
 # Tutorial #5: Performing a very simple flow of functional test
->>>>>>> Add pictures in english and fixing some typos
 
 Now that we already know Appium's main functionalities, it is time to combine some of them by performing a functional test in an application. As we are starting, I will perform this test by using Android's native Calculator application. As we are talking about functional tests, let's start structuring this test case:
 
