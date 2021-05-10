@@ -151,7 +151,7 @@ When you download and install JDK in your Windows environment, it is time to set
 Now, download and install Android SDK and go ahead with following instructions:
 1. Follow the same step described on previous #1 to achieve environment variables field.
 2. Now, name your new variable as "ANDROID_HOME" and as value insert the path location for your Android SDK, for example, "C:\android-sdk".
-3. Now it is time to add this variable value to your global variable: "%ANDROID_HOME%\platform-tools" and also "%ANDROID_HOME\tools%".
+3. Now it is time to add this variable value to your global variable: "%ANDROID_HOME%\platform-tools" and also "%ANDROID_HOME%\tools".
 4. Just confirm changes by clicking OK button and setup has been finished.
     
 # Environment variables - Linux:
