@@ -340,7 +340,7 @@ Now we see so many fields on the next screen for Appium. We can proceed with <i>
 
 **Remote Host:**  127.0.0.1<br>
 **Remote Path:** /wd/hub<br>
-**Remote Port:** 4327<br>
+**Remote Port:** 4723<br>
 
 **Remote Port** was already explained it previously. **Remote Host** uses <i>localhost</i> value for the service, and you can change it if you want so. If you do not want to change anything, we can keep using default values. **Remote Path** has also a default value from Appium and I never had to change it, so, lets keep using it as default value.
 
