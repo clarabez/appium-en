@@ -577,7 +577,7 @@ In mobile development, we call every screen under development as "activity". Thi
 <br>
 Using ADB commands! <3 For that, let's use our device under test and open the test application. Go to the test activity - that screen you want to start a session. After that, connect your device to your computer, open your terminal and insert following command:
 ```bash
-    adb shell dumpsys window windows | grep -E 'mCurrentFocus'
+    adb shell dumpsys window | grep -E 'mCurrentFocus'
 ```
 
 Visually, it is displayed like so:
