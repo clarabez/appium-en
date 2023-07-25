@@ -2,7 +2,7 @@
 <img src="/images/appiumwithpython_en.png">
 </div>
 
-<i>This is the english version of <a href="https://github.com/clarabez/appium">Appium Course in portuguese</a>, which is recommend by <a href="https://github.com/appium/appium/tree/master/sample-code/python#tutorial">Appium official documentation</a>.</i>
+<i>This is the english version of <a href="https://github.com/clarabez/appium">Appium Course in portuguese</a>, which is recommend by <a href="https://github.com/appium/appium/tree/1.x/sample-code/python#tutorial">Appium official documentation</a>.</i>
 
 This tutorial is a guide to teach you how to setup your environment to use Appium tool for functional test automation on mobile devices. Among other things, I highlight following points as main learning:
 
